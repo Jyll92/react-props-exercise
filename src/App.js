@@ -1,5 +1,5 @@
 import Exercise from "./exercise/Exercise"
-import Bonus from "./bonus/Bonus";
+
 
 
 function App() {
@@ -7,7 +7,6 @@ function App() {
     <div>
       <Exercise />
       <Exercise good="Awesome" bad="Terrible" />
-      <Bonus />
     </div>
     );
 }

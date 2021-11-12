@@ -1,9 +1,13 @@
+import Bonus from "../bonus/Bonus";
+
 function Exercise({good = `Great`, bad = `Not Great`}){
     return (
         <div>
-            <h2>{good}</h2>
-            <h2>{bad}</h2>
+            <h1>{good}</h1>
+            <h1>{bad}</h1>
+            <Bonus />
         </div>
+
     )
 }
 
